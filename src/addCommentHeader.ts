@@ -28,7 +28,7 @@ for (const dayDirectory of dayDirectories) {
 	}
 
 	/*
-    Advent of Code - Jerren Trifan - 2024
+    Advent of Code - Jerren Trifan - 202x
     Day <number>
     Link to instructions: <link>
   */
