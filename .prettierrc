@@ -1,0 +1,12 @@
+{
+	"useTabs": true,
+	"semi": true,
+	"printWidth": 100,
+	"singleQuote": true,
+	"arrowParens": "always",
+	"proseWrap": "preserve",
+	"bracketSameLine": false,
+	"htmlWhitespaceSensitivity": "ignore",
+	"endOfLine": "lf",
+	"trailingComma": "es5"
+}

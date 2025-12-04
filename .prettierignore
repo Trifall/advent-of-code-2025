@@ -1,0 +1,19 @@
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+.drizzle/
+
+# Ignore artifacts:
+build
+dist
+coverage
+
+# Ignore all HTML files:
+*.html
+
+.gitignore
+.lintstagedrc.js
+.prettierignore
+.eslintignore
