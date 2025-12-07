@@ -42,3 +42,5 @@ export function findArrayLCM(arr: number[], length: number) {
 
 	return ans;
 }
+
+export const getArrayColumn = (arr: string[][], n: number) => arr.map((x) => x[n]).filter(Boolean);
