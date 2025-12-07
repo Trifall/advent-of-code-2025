@@ -45,6 +45,7 @@ export function findArrayLCM(arr: number[], length: number) {
 
 export const getArrayColumn = (arr: string[][], n: number) => arr.map((x) => x[n]).filter(Boolean);
 
+// dirs
 export const dirs4 = [
 	[1, 0],
 	[-1, 0],
@@ -63,8 +64,19 @@ export const dirs8 = [
 	[-1, -1],
 ] as const;
 
+// bounds
 export const inBounds = (grid: any[][], r: number, c: number) =>
 	r >= 0 && c >= 0 && r < grid.length && c < grid[0].length;
 
+// manhattan distance
 export const manhattan = (a: [number, number], b: [number, number]) =>
 	Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
+
+// sets
+export const intersect = <T>(a: Set<T>, b: Set<T>): Set<T> =>
+	new Set([...a].filter((x) => b.has(x)));
+
+export const union = <T>(a: Set<T>, b: Set<T>): Set<T> => new Set([...a, ...b]);
+
+export const difference = <T>(a: Set<T>, b: Set<T>): Set<T> =>
+	new Set([...a].filter((x) => !b.has(x)));
